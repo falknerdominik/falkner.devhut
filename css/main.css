@@ -225,6 +225,13 @@ body, html{
 
 #foot .left h1{
 	color: #4388CC;
+	margin: 0;
+	padding: 0;
+}
+
+#foot .left p{
+	margin:0;
+	margin-top: 0.3em;
 }
 
 #foot .right{
