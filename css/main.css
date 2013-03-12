@@ -237,7 +237,12 @@ body, html{
 }
 
 #foot .right{
+	padding-top: 3em;
 	float: right;
+}
+
+#foot .right img{
+	height: 30%;
 }
 
 #foot .right ul{
