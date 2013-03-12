@@ -1,0 +1,65 @@
+/**************/
+/**** Body ****/
+/**************/
+
+#body #upper .left form ul{
+	height: 4em;
+	padding: 0;
+	width: 109%;
+}
+
+#body #upper .left form ul li{
+	list-style: none;
+	float: left;
+	width: 33.33%;
+}
+
+#body #upper .left form ul li p{
+	margin-top: 0;
+	padding-top: 0;
+	font-weight: 600;
+}
+
+#body #upper .left form ul li input{
+	border: 0.01em solid #4388CC;
+	padding: 0.2em;
+}
+
+#body #upper .left p{
+	font-weight: 600;
+}
+
+#body #upper .left textarea{
+	width: 98%;
+	height: 16em;
+	border: 0.01em solid #4388CC;
+	resize: none;
+	padding: 0.2em;
+}
+
+#body #upper .left input[type=submit]{
+	margin-top: 2em;
+	margin-right: 0.3em;
+	background-color: #4388CC;
+	border: none;
+	color: white;
+	padding: 0.3em;
+	float: right;
+}
+
+#body #upper .right{
+	width: 30%;
+}
+
+#body #upper .right ul{
+	list-style-type: none;
+}
+
+#body #upper .right ul li{
+	padding-bottom: 0.4em;
+}
+
+#body #lower .left{
+	width: 100%;
+}
+

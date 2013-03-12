@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>package</title>
+		<meta charset="utf-8" />
+		<style type="text/css">
+			html {
+				font-family: Arial, Helvetica, sans-serif;
+			}
+
+		</style>
+
+	</head>
+	<body>
+		<h1>Bestandteile eines Packages</h1>
+		<p>
+			Ein "Package" eines Projekts besteht aus:
+		</p>
+		<ol>
+			<li>
+				4 Preview Bilder ( + 1 Splash/Logoscreen)
+			</li>
+			<li>
+				1 Thumbnail
+			</li>
+			<li>
+				Einer Beschreibung (in HTML)
+			</li>
+			<li>
+				eine Beschreibung von Anforderungen
+			</li>
+			<li>
+				1 Button Bild
+			</li>
+			<li>
+				[Das Programm selbst zum Download]
+			</li>
+		</ol>
+		<p>
+			Nun die Obengenannten Punkte genauer:
+		</p>
+
+		<ol>
+			<li>
+				Die 3 Preview Bilder und das Splashbild werden für den Slider gebraucht. Das Splashbild ist immer das erste im Slider.
+			</li>
+			<li>
+				Das Thumbnail ist für die Zufällige generierte "Kacheln" es steht in Verbindung mit der Kurzbeschreibung (Wenn Maus darüberfährt, wird die Kurzbeschreibung angezeigt
+			</li>
+			<li>
+				Eine ausführliche Beschreibung mit Namen der App / Webpage auch in HTML geschrieben und wird auch mit PHP reingeladen.
+			</li>
+			<li>
+				Ist eine Beschreibung der Anforderungen bzw. welches Wissen ich besitzen musste um diese App / Webpage zu schreiben. Besteht aus 3 - 5 Punkten.
+			</li>
+			<li>
+				Ein Button welcher einen zur App / Webpage weiterleitet. Ist die App in keinem Store so ist dieser als Downloadbutton zu sehen, Webseiten als Link zur Seite.
+			</li>
+			<li>
+				Als Binary in einem .zip Ordner gespeichert.
+			</li>
+		</ol>
+		<p>
+			Ordnerstruktur:
+		</p>
+
+		<ul>
+			<li>
+				&lt;Projektname&gt;
+				<br />
+				<ul>
+					<li>
+						&lt;slices&gt;
+						<br />
+						<ul>
+							<li>
+								&lt;img&gt;splash.png&lt;/img&gt;
+								<br />
+							</li>
+							<li>
+								&lt;img&gt;1.png&lt;/img&gt;
+								<br />
+							</li>
+							<li>
+								&lt;img&gt;2.png&lt;/img&gt;
+								<br />
+							</li>
+							<li>
+								&lt;img&gt;3.png&lt;/img&gt;
+								<br />
+							</li>
+						</ul>
+						&lt;/slices&gt;
+						<br />
+					</li>
+				</ul>
+				<ul>
+					<li>
+						&lt;thumbnail&gt;
+						<br />
+						<ul>
+							<li>
+								&lt;img&gt;thumb.png&lt;/img&gt;
+								<br />
+							</li>
+						</ul>
+						&lt;/thumbnail&gt;
+						<br />
+					</li>
+				</ul>
+				<ul>
+					<li>
+						&lt;item&gt;description.html&lt;/item&gt;
+					</li>
+					<li>
+						&lt;item&gt;dependencies.html&lt;/item&gt;
+				</ul>
+			</li>
+		</ul>
+		<ul>
+			<li>
+				&lt;/Projectname&gt;
+				<br />
+			</li>
+		</ul>
+
+	</body>
+</html>

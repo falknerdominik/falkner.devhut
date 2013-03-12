@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Meta -->
+		<meta lang="de" />
+		<meta charset="utf-8">
+		<meta author="Dominik Falkner" />
+		<meta date="2012-10-08" />
+		<meta content="Die ist die Webseite von Dominik Falkner. Hier stellt er seine Projekte." />
+
+		<!-- Title -->
+		<title>Dominik Falkner</title>
+
+		<!-- help older IE version to recognize html5 + mediaqueries -->
+		<!--[if lte IE 8]>
+		<script src="/js/html5.js"></script>
+		<script src="/js/css3-mediaqueries.js"></script>
+		<![endif]-->
+
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="../css/normalize.css" />
+
+		<link rel="stylesheet" media="screen"  href="../css/main.css" />
+		<link rel="stylesheet" href="../css/contact.css" />
+
+		<!--<link rel="stylesheet" media="screen and (orientation: landscape or (max-width: 949px))"  href="css/landscape.css" />
+		<link rel="stylesheet" media="screen and (orientation: portraid)"  href="css/portraid.css" />-->
+
+	</head>
+	<body>
+		<div id="wrapper">
+			<!-- Start Head -->
+			<section id="head">
+				<a href="../index.html">
+				<hgroup>
+					<h1>Dominik</h1>
+					<h1 class="indent">Falkner</h1>
+				</hgroup></a>
+				<p>
+					Programming & Webdesign
+				</p>
+				<nav>
+					<ul>
+						<li>
+							<a href="../index.html" >Work</a>
+						</li>
+						<li class="current">
+							Kontakt
+						</li>
+						<li>
+							<a href="about.html" >Über Mich</a>
+						</li>
+					</ul>
+				</nav>
+				<hr />
+			</section>
+			<!-- End Head -->
+
+			<!-- Start Body -->
+			<section id="body">
+				<div id="upper">
+					<div class="left">
+						<form autocomplete="off" action="../php/sendMail.php" method="post">
+							<ul>
+								<li>
+									<p>
+										Name
+									</p>
+									<input type="text" name="name" placeholder="Max Mustermann" required />
+								</li>
+
+								<li>
+									<p>
+										Email
+									</p>
+									<input type="email"  name="mail" placeholder="max@gmail.com" required />
+								</li>
+
+								<li>
+									<p>
+										Betreff
+									</p>
+									<input type="text" name="subject" placeholder="Frage" required />
+								</li>
+							</ul>
+
+							<p>
+								Nachricht
+							</p>
+							<textarea name="msgContent" placeholder="Hier schreiben Sie ihre Nachricht." required ></textarea>							
+							
+ <input type="submit" value="Email abschicken" />
+						</form>
+					</div>
+					<div class="right">
+						<h2>Kontakt Details</h2>
+						<hr />
+						<ul>
+							<li>
+								4152 Atzesberg
+							</li>
+							<li>
+								Wollerdorf 11
+							</li>
+							<li>
+								falkner.dominik@gmail.com
+							</li>
+							<li>
+								0660 4133 545
+							</li>
+						</ul>
+						<br />
+						<h2>Soziale Kontakte</h2>
+						<hr />
+						<ul>
+							<li>
+								facebook
+							</li>
+							<li>
+								Reddit
+							</li>
+						</ul>
+					</div>
+
+				</div>
+				<hr />
+				<div id="lower">
+					<div class="left">
+						<h2>About</h2>
+						<p>
+							Ich versuche zwar jede Nachricht zu beantworten und ihr auch gerecht zu werden, dennoch kann es sein das ich eine Nachricht übersehe. Deshalb nicht gleich wütend werden sondern noch eine schicken.
+							<br />
+							<br />
+							Ich freue mich schon auf eure Nachrichten
+						</p>
+					</div>
+				</div>
+			</section>
+			<!-- End Body -->
+		</div>
+		<!-- Start Foot -->
+		<section id="foot">
+			<div class="left">
+				<h1>Dominik Falkner</h1>
+				<p>
+					Wollerdorf 11 | 4152 Atzesberg
+					<br />
+					falkner.dominik@gmail.com | 0660 4133 545
+				</p>
+			</div>
+			<div class="right"></div>
+		</section>
+		<!-- End Foot -->
+	</body>
+</html>

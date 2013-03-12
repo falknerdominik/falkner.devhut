@@ -1,0 +1,242 @@
+/******************/
+/*** Allgemein ***/
+/*****************/
+
+hr{
+	border-color: #4388CC;
+	margin-top: 0.8%;
+	margin-bottom: 0.8%;
+}
+
+p{
+	line-height: 150%;
+	font-size: 120%;
+}
+
+.indent{
+	text-indent: 1em; 
+}
+
+.current{
+	font-weight: 600;
+	border-bottom: .4em solid #4388CC;
+	padding-bottom: 0.1em;
+	border-width: medium;
+}
+
+a:link, :visited, :hover{
+	color: black;
+	text-decoration: none;
+}
+
+body, html{
+	height: 110%;
+	padding: 0;
+	margin: 0;
+	background-image: url(../img/bg.png);
+}
+
+#wrapper{
+	height: 100%;
+	margin-top: 1.3%;
+	margin-left: 4.5%;
+	margin-right: 3.5%;
+	margin-bottom: 1.1%;
+}
+
+/*************/
+/*** Head ***/
+/************/
+
+#head{
+	height: 12%;
+	margin-bottom: 2%;
+	width: 100%;
+	font-size: 100%;
+}
+
+#head hgroup{
+	float: left;
+	margin-right: 2em;
+}
+
+#head hgroup h1{
+	margin: 0;
+	color: #4388CC;
+	font-size: 200%;
+}
+
+#head p{
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	margin-top: 3.7em;
+	color: rgba(0, 0, 0, 0.75);
+	display: inline-block;
+	visibility: visible;
+}
+
+#head nav{
+	margin-top: 3.7em;
+	float: right;
+	margin-right: 2em;
+}
+#head nav ul{
+	margin: 0;
+	padding: 0;
+}
+
+#head nav ul li{
+	float: left;
+	margin-right: 3.2em;
+	padding-left: 0.4em;
+	padding-right: 0.4em;
+	list-style-type: none;
+	font-variant: small-caps;
+
+}
+
+/*************/
+/*** Body ***/
+/************/
+
+#body{
+	margin-left: 2.2%;
+	margin-right: 2.2%;
+	height: 90%;
+}   
+
+#body #upper{
+	height: 65%;
+	width: 100%;
+	padding: 0.1em;
+	margin-bottom: 1.5em;
+}
+
+#body #upper .left{
+	width: 59%;
+	height: 100%;
+	margin-right: 2%;
+	float: left;
+}
+
+#body #upper .right{
+	float: right;
+	width: 38%;
+	height: 100%;
+}
+
+#body #upper .right table{
+	width: 100%;
+	height: 100%;
+}
+#body #upper .right table tr{
+	width: 50%;
+}
+#body #upper .right table tr td{
+	width: 19.5%;
+	height: 22%;
+	margin: 0.1%;
+	padding: 0;
+	background-color: #4388CC;
+	-webkit-background-size: cover; /*for webKit*/
+    -moz-background-size: cover; /*Mozilla*/
+    -o-background-size: cover; /*opera*/
+	background-size: contain;
+	background-repeat: repeat;
+}
+
+#body #lower{
+	height: 28%;
+	width: 100%;
+	overflow-y: auto;
+}
+
+#body #lower .left{
+	width: 79%;
+	height: 100%;
+	margin-right: 2%;
+	float: left;
+}
+
+#body #lower .left p{
+	padding-left: 2em;
+}
+
+#body #lower .right{
+	float: right;
+	width: 16%;
+	height: 100%;
+	margin-top: 1em;
+	padding-right: 1em;
+}
+
+#body #lower .right div{
+	border: 1px solid #4388CC;
+	padding: 0.4em;
+	font-size: 90%;
+	width: 100%;
+	font-size: 70%;
+}
+
+#body #lower .right div ul{
+	padding-left: 4em;
+}
+
+#body #lower .right div ul li{
+	padding-bottom: 0.3em;
+}
+
+#body #lower .right .button {
+	background-color:#4388cc;
+	display: inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:12px;
+	font-weight:bold;
+	padding: 5px;
+	text-decoration:none;
+	margin-top: 15px;
+	text-align: center;
+	min-width: 100%;
+	border: 1px solid #4388cc;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+/************/
+/*** Foot ***/
+/************/
+
+#foot{
+	font-size: 100%;
+	margin-top: 2em;
+	padding: 0.3em;
+	width: 99.3%;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+#foot .left{
+	width: 40%;
+	padding: 0.3em;
+}
+
+#foot .left h1{
+	color: #4388CC;
+}
+
+#foot .right{
+	width: 60%;
+	float: right;
+}
+
+#foot .right ul{
+	list-style-type: none;
+}
+
+#foot .right ul li{
+	padding-right: 3em;
+	float: left;
+}
