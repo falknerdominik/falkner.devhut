@@ -215,12 +215,14 @@ body, html{
 	margin-top: 2em;
 	padding: 0.3em;
 	width: 99.3%;
+	height: 7em;
 	background-color: rgba(0, 0, 0, 0.75);
 }
 
 #foot .left{
 	width: 40%;
 	padding: 0.3em;
+	float: left;
 }
 
 #foot .left h1{
@@ -235,7 +237,6 @@ body, html{
 }
 
 #foot .right{
-	width: 60%;
 	float: right;
 }
 
@@ -244,6 +245,6 @@ body, html{
 }
 
 #foot .right ul li{
-	padding-right: 3em;
+	padding-right: 1em;
 	float: left;
 }
